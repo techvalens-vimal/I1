@@ -1,0 +1,23 @@
+.modalParent{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalChild{
+background-color: antiquewhite;
+width: 50rem;
+height: max-content;
+border-radius: 16px;
+box-shadow: 0 0 4px 4px black;
+padding: 1rem;
+}
+.close{
+    margin-top: 2rem;
+}

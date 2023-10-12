@@ -1,0 +1,14 @@
+.userBtn{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    font-size: x-large;
+    padding: 15px;
+    border-radius: 16px;
+}
+.userBtn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.select{
+    margin:10px;
+    font-size: large;
+}
+.time{
+    margin-right: 10px;
+    font-size: large;
+}
+.label{
+    margin-right: 10px;
+    font-size: large;
+}
+.option{
+    height: 30px;
+    width: 250px;
+    font-size: large;
+}
+.btn{
+    font-size: large;
+    color: antiquewhite;
+    border-radius: 8px;
+}
+.btn:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}

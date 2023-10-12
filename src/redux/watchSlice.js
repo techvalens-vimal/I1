@@ -25,7 +25,6 @@ const timezoneSlice = createSlice({
     });
 
     builder.addCase(getClock.fulfilled, (state, action) => {
-      //   console.log(action.payload.datetime.split('T')[1].split('.')[0].split(':'))
       return {
         ...state,
         currentTime: action.payload.datetime
