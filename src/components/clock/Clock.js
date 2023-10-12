@@ -10,7 +10,7 @@ const Clock = () => {
   const [min, setMin] = useState(0);
   const [sec, setSec] = useState(0);
   const [isStopped, setIsStopped] = useState(false);
-  const [isDisabled , setIsDisabled] = useState(true)
+  const [isDisabled, setIsDisabled] = useState(true);
   const dispatch = useDispatch();
   const allTimeZones = useSelector((state) => {
     return state.timezone.timeZones;
@@ -79,7 +79,7 @@ const Clock = () => {
               setSelectedTimeZone(e.target.value);
               dispatch(getClock(e.target.value));
               setIsStopped(false);
-              setIsDisabled(false)
+              setIsDisabled(false);
             }}
             id="selectTimeZone"
           >
@@ -107,7 +107,7 @@ const Clock = () => {
             onClick={buttonHandler}
             disabled={isDisabled}
             className="btn"
-            style={{ backgroundColor: `${isStopped ? 'green' : 'red'}` }}
+            style={{ backgroundColor: `${isStopped ? "green" : "red"}` }}
           >
             {isStopped ? "Start" : "Stop"}
           </button>

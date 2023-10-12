@@ -10,7 +10,7 @@ const User = (props) => {
     return state.posts.posts;
   });
   const userPosts = posts.filter((post) => {
-    return post.userId == user.id;
+    return post.userId === user.id;
   });
   const btnClickHandler = () => {
     setShowDetails(!showDetails);
